@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Welcome to the Employee Payroll System Project");
         PayrollSystem payrollSystem = new PayrollSystem();
         FullTimeEmployee fullTimeEmployee1 = new FullTimeEmployee("Manoj",101 , 20000.0);
         payrollSystem.addEmployee(fullTimeEmployee1);
@@ -92,6 +93,7 @@ class PayrollSystem{
     public void displayEmployee(){
         for(Employee employee : employeeArrayList){
             System.out.println(employee);
+            
         }
     }
 
